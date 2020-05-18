@@ -15,7 +15,7 @@ I find that I can manually insert commands if the function is not properly sanit
 I now remember back to the intro page of this CTF and recall that all passwords are stored in ```/etc/natas_webpass/```, and are accessible to both the level's user and the level's below it user (ex. natas8 and natas9).
 
 I find that by entering ```; cat /etc/natas_webpass/natas10 # ``` I am able to first exit the grep (```;```) and then look into the ```/etc/natas_webpass/natas10``` file.
-The ```#``` is only used to end the call without ```cat```ing out ```dictionary.txt```.
+The ```#``` is only used to comment out the rest of the call without ```cat```ing out ```dictionary.txt```.
 
 We are given the flag as the output.
 
